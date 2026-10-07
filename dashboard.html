@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+    <h2>Student Management System</h2>
+
+    <div>
+        <a href="#" onclick="logout()">Logout</a>
+    </div>
+</nav>
+
+<div class="dashboard">
+
+    <h1>Welcome, <span id="studentName"></span>!</h1>
+
+    <div class="student-card">
+
+        <h2>Student Profile</h2>
+
+        <p><strong>Name:</strong> <span id="name"></span></p>
+        <p><strong>Age:</strong> <span id="age"></span></p>
+        <p><strong>Date of Birth:</strong> <span id="dob"></span></p>
+        <p><strong>Gender:</strong> <span id="gender"></span></p>
+        <p><strong>Email:</strong> <span id="email"></span></p>
+        <p><strong>Mobile:</strong> <span id="mobile"></span></p>
+        <p><strong>Username:</strong> <span id="username"></span></p>
+        <p><strong>Course:</strong> <span id="course"></span></p>
+        <p><strong>Address:</strong> <span id="address"></span></p>
+
+    </div>
+
+    <button onclick="logout()">Logout</button>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

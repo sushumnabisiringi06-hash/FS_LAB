@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f7fb;
+    color: #222;
+}
+
+nav {
+    background: #1d3557;
+    color: white;
+    padding: 18px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #457b9d;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn,
+button {
+    background: #e63946;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px;
+}
+
+.features div {
+    background: white;
+    padding: 30px;
+    width: 280px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+.form-container {
+    width: 500px;
+    margin: 40px auto;
+    background: white;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px #ccc;
+}
+
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 80px;
+}
+
+.form-container button {
+    width: 100%;
+    margin: 15px 0;
+}
+
+#registerMessage,
+#loginMessage {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dashboard {
+    width: 700px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.student-card {
+    background: white;
+    padding: 30px;
+    margin: 25px 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px #ccc;
+    text-align: left;
+}
+
+.student-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.student-card p {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
